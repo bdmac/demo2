@@ -4,8 +4,8 @@
 {
 	"name": "Node.js & PostgreSQL",
 	"dockerComposeFile": "docker-compose.yml",
-	"service": "app",
-	"runServices": ["app", "db"],
+	"service": "codespaces",
+	"runServices": ["codespaces", "app", "db"],
 	"workspaceFolder": "/workspace",
 
 	// Configure tool-specific properties.
